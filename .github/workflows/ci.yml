@@ -28,7 +28,7 @@ jobs:
           - beta
           - nightly
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v6
       - name: Cache cargo & target directories
         uses: Swatinem/rust-cache@v1
       - name: Install toolchain
